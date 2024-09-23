@@ -1,0 +1,6 @@
+[submodule "DE"]
+	path = DE
+	url = https://github.com/fermoz/DE.git
+[submodule "Es"]
+	path = Es
+	url = https://github.com/fermoz/Es.git
