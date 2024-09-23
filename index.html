@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Proyectos</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+</head>
+<body>
+    <h1>Programa de Proyectos</h1>
+    <p>Bienvenido al repositorio de datasets y cuadernos de Jupyter asociados a los proyectos de nuestro programa.</p>
+    
+    <h2>Proyectos</h2>
+    <table id="projects" class="display">
+        <thead>
+            <tr>
+                <th>Proyecto</th>
+                <th>Descripción</th>
+                <th>Repositorio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Proyecto 1</td>
+                <td>Descripción breve del Proyecto 1</td>
+                <td><a href="https://github.com/tu-usuario/proyecto1" target="_blank">Ver repositorio</a></td>
+            </tr>
+            <tr>
+                <td>Proyecto 2</td>
+                <td>Descripción breve del Proyecto 2</td>
+                <td><a href="https://github.com/tu-usuario/proyecto2" target="_blank">Ver repositorio</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#projects').DataTable();
+        });
+    </script>
+</body>
+</html>
